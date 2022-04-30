@@ -13,7 +13,7 @@ config_s2i
 echo "rricoooo starting"
 
 cp -Rf /tmp/src/*.html ./
-DATE = $(date +%F)
+DATE=$(date +%F)
 echo "The date today is ${DATE}" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
